@@ -1,6 +1,5 @@
 <template>
   <div>
-    <NuxtRouteAnnouncer />
-    <NuxtWelcome />
+    {{$dayjs(new Date()).utc().toString()}}
   </div>
 </template>
